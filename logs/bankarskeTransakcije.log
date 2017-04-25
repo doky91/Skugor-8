@@ -1,0 +1,786 @@
+2013-11-26 12:46:58,266 INFO [main] h.t.p.j.g.Glavna [Glavna.java:96] Uneseno ime vlasnika 1. raèuna: hd
+2013-11-26 12:53:37,604 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 1. raèuna: hjiè
+2013-11-26 12:53:38,568 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: df
+2013-11-26 12:53:40,999 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: ž253fd
+2013-11-26 12:53:42,423 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: hh
+2013-11-26 12:53:43,056 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta dhydhhdg nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.dhydhhdg
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 12:53:43,831 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta hdtdhdz nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.hdtdhdz
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 12:53:52,950 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: sfkjè
+2013-11-26 12:53:53,935 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 2.raèuna: gsdgsd
+2013-11-26 12:53:54,883 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 2.raèuna: gss
+2013-11-26 12:53:55,728 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: sgsg
+2013-11-26 12:53:57,406 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 2. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-26 12:53:58,821 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 2. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-26 12:54:00,646 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 2. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-26 12:54:50,100 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: Ante
+2013-11-26 12:54:51,871 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: fsaa6
+2013-11-26 12:54:52,808 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: gsdg
+2013-11-26 12:54:55,352 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 250
+2013-11-26 12:55:02,489 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: mate
+2013-11-26 12:55:04,640 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: jff
+2013-11-26 12:55:05,403 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: fjf
+2013-11-26 12:55:06,674 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: fjffj
+2013-11-26 12:58:36,896 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: Anto
+2013-11-26 12:58:38,668 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 52
+2013-11-26 12:58:40,173 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: sdsdf
+2013-11-26 12:58:41,741 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: faaf
+2013-11-26 12:58:49,011 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: ante
+2013-11-26 12:58:51,162 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: hhj
+2013-11-26 12:58:53,070 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: 52584
+2013-11-26 12:58:53,981 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 553
+2013-11-26 13:03:15,794 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: mmmm
+2013-11-26 13:03:16,825 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 5641
+2013-11-26 13:03:17,601 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: hdxfh
+2013-11-26 13:03:18,329 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: hffh
+2013-11-26 13:03:23,448 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: xvxf
+2013-11-26 13:03:24,111 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: gfxggd
+2013-11-26 13:03:24,662 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: fg
+2013-11-26 13:03:26,604 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: xcs
+2013-11-26 13:34:41,951 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: ana
+2013-11-26 13:34:43,262 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: ffa
+2013-11-26 13:34:43,999 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: fas
+2013-11-26 13:34:45,505 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 2525
+2013-11-26 13:34:46,285 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 1. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-26 13:34:56,894 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: majo
+2013-11-26 13:34:57,633 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: faaf
+2013-11-26 13:34:59,011 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: 252
+2013-11-26 13:35:00,091 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 2582
+2013-11-26 13:38:56,885 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: anfo
+2013-11-26 13:38:57,719 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 5852
+2013-11-26 13:38:58,475 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: fa
+2013-11-26 13:38:58,960 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: fa
+2013-11-26 13:39:00,250 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 1. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-26 13:39:07,533 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: <fkan
+2013-11-26 13:39:08,273 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: klnamad
+2013-11-26 13:39:10,560 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: kadnld as44
+2013-11-26 13:39:11,844 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 25
+2013-11-26 13:41:06,008 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: koko
+2013-11-26 13:41:35,423 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: ifsj
+2013-11-26 13:41:36,063 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: kfdjla
+2013-11-26 13:41:37,581 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: ð2500
+2013-11-26 13:41:44,071 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: flkfal
+2013-11-26 13:41:44,829 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: kfna.f
+2013-11-26 13:41:46,444 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: afg
+2013-11-26 13:41:48,509 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: gsddg5
+2013-11-26 13:46:50,505 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 1. raèuna: mèm
+2013-11-26 13:46:51,411 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: m.
+2013-11-26 13:46:52,505 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna:  .,m
+2013-11-26 13:46:53,396 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: mk.,-,
+2013-11-26 13:46:54,818 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta mlè- nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.mlè-
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 13:46:54,972 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta  nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 13:47:05,576 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: èkolž
+2013-11-26 13:47:06,689 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: mkm.l.
+2013-11-26 13:47:08,260 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: lm,
+2013-11-26 13:47:10,263 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 585
+2013-11-26 13:47:31,825 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 6523
+2013-11-26 13:47:33,046 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 54123
+2013-11-26 13:47:34,038 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: 12,
+2013-11-26 13:47:35,405 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 213,
+2013-11-26 13:47:43,560 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 25+3
+2013-11-26 13:47:44,444 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: 623,
+2013-11-26 13:47:45,108 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: 561230
+2013-11-26 13:47:45,858 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 56123
+2013-11-26 13:48:06,020 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 252
+2013-11-26 13:48:07,108 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna:  MV
+2013-11-26 13:48:08,143 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: MXCM
+2013-11-26 13:48:08,701 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: MVC
+2013-11-26 13:48:15,387 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: D
+2013-11-26 13:48:16,086 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: HDH
+2013-11-26 13:48:17,104 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: HDDH
+2013-11-26 13:48:18,404 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: FDH
+2013-11-26 13:48:20,740 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta 250 nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.250
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 13:48:29,607 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 1. raèuna: 
+2013-11-26 13:48:29,882 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: 
+2013-11-26 13:48:30,089 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: 
+2013-11-26 13:48:30,263 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 
+2013-11-26 13:48:30,422 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta  nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 13:48:30,579 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta  nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 13:48:30,748 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta  nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 13:48:30,903 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta  nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 13:48:31,047 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta  nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 13:49:29,201 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: MOM
+2013-11-26 13:49:30,581 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 25
+2013-11-26 13:49:31,373 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: 525
+2013-11-26 13:49:34,384 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 25000
+2013-11-26 13:49:44,382 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: ÈÈÈ4
+2013-11-26 13:49:45,711 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: 36
+2013-11-26 13:49:46,132 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: 263
+2013-11-26 13:49:47,219 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 362
+2013-11-26 14:01:51,053 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 1. raèuna: HDDH
+2013-11-26 14:01:51,973 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: HDDH
+2013-11-26 14:01:52,656 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: DHDHH
+2013-11-26 14:01:53,828 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: DHDH
+2013-11-26 14:02:02,692 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 250
+2013-11-26 14:02:03,555 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 2.raèuna: 2T
+2013-11-26 14:02:04,327 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 2.raèuna: ZTTR
+2013-11-26 14:02:04,931 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: TR
+2013-11-26 14:02:05,620 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 2. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-26 14:02:06,246 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 2. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-26 14:02:06,822 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 2. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-26 14:02:18,913 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: UUU
+2013-11-26 14:02:20,463 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 250
+2013-11-26 14:02:21,538 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: 254
+2013-11-26 14:02:22,598 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 2352
+2013-11-26 14:02:30,321 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: JGDJ
+2013-11-26 14:02:31,654 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: JGD
+2013-11-26 14:02:32,464 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: DJJD
+2013-11-26 14:02:33,827 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 250
+2013-11-26 14:15:52,933 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: DOOOOOOOOOOOOOODAAAAAAAA
+2013-11-26 14:15:54,355 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 252
+2013-11-26 14:15:55,011 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: kv
+2013-11-26 14:15:55,677 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: kvk
+2013-11-26 14:16:04,296 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: sgdsg
+2013-11-26 14:16:05,011 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: gsgg
+2013-11-26 14:16:06,856 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: 25000
+2013-11-26 14:16:07,839 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 202
+2013-11-26 14:20:47,910 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: DODDDDDDDDDDDDDDOOOOOOOOOP
+2013-11-26 14:20:49,010 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: gjf
+2013-11-26 14:20:49,903 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: 2jgc
+2013-11-26 14:20:51,522 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: fjfj
+2013-11-26 14:20:57,563 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 250fhhdh
+2013-11-26 14:20:58,221 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: hgddhhd
+2013-11-26 14:20:59,588 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: gdhgdjdg
+2013-11-26 14:21:01,090 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: gkgl
+2013-11-26 14:24:16,592 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: mamam
+2013-11-26 14:24:17,580 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 2523
+2013-11-26 14:24:18,740 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: 13d
+2013-11-26 14:24:19,861 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: dssd
+2013-11-26 14:24:25,813 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: djda
+2013-11-26 14:24:26,525 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: kadaks
+2013-11-26 14:24:27,426 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: alsdæ
+2013-11-26 14:24:28,781 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 252
+2013-11-26 14:30:45,352 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 2GGSGF
+2013-11-26 14:30:46,510 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: GSSGSG
+2013-11-26 14:30:47,241 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: FSS
+2013-11-26 14:30:49,307 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: FD2500
+2013-11-26 14:30:57,221 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 25ÈK
+2013-11-26 14:30:58,073 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: NKLKKLM
+2013-11-26 14:31:00,164 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: LLÈLŽŽ
+2013-11-26 14:31:01,739 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: LÈ,LÈL
+2013-11-26 14:31:08,830 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta ŽGBP nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.ŽGBP
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 14:35:21,418 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: JESFJKLS
+2013-11-26 14:35:23,159 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: FDLKFYJKL4
+2013-11-26 14:35:24,183 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: FDFDKLLK
+2013-11-26 14:35:25,315 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: LDFJKLFSDLK
+2013-11-26 14:35:30,485 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: FDSJS
+2013-11-26 14:35:31,996 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: KDÈJSDG
+2013-11-26 14:35:33,697 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: GKHL4
+2013-11-26 14:35:34,545 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: GSDKLGSKL
+2013-11-26 14:54:00,638 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: hjjhgk
+2013-11-26 14:54:01,540 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 252
+2013-11-26 14:54:02,670 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: èkjjkn
+2013-11-26 14:54:03,564 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 3652
+2013-11-26 14:54:09,419 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 2556l
+2013-11-26 14:54:10,485 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: llèž
+2013-11-26 14:54:11,834 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: 250
+2013-11-26 14:54:12,800 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 252
+2013-11-26 14:55:35,251 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: ggg5
+2013-11-26 14:55:36,359 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 54gg
+2013-11-26 14:55:37,312 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: gdgd64
+2013-11-26 14:55:37,974 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 6g5+
+2013-11-26 14:55:43,165 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: gdydg
+2013-11-26 14:55:43,774 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: gydgy
+2013-11-26 14:55:44,354 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: gygy
+2013-11-26 14:55:45,112 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: gygy
+2013-11-26 14:55:53,055 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:224] Racun 6g5+ nema (2500) dovoljno sredstava!
+hr.tvz.programiranje.java.iznimke.NedozvoljenoStanjeRacunaException: Nemas kuna!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provediTransakciju(DeviznaTransakcija.java:34) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:205) ~[bin/:na]
+2013-11-26 14:56:59,067 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: DoDOOoooo7777777
+2013-11-26 14:56:59,995 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: hhfd
+2013-11-26 14:57:01,384 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: hfdhf
+2013-11-26 14:57:02,882 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: hd
+2013-11-26 14:57:08,004 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: g
+2013-11-26 14:57:08,650 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: gg
+2013-11-26 14:57:09,400 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: gsg
+2013-11-26 14:57:10,430 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: gs
+2013-11-26 22:09:05,383 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: oook
+2013-11-26 22:09:06,321 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 51f
+2013-11-26 22:09:07,165 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: sf51
+2013-11-26 22:09:07,743 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: fs
+2013-11-26 22:09:13,130 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 563,
+2013-11-26 22:09:13,783 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: afdf
+2013-11-26 22:09:14,249 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: fd
+2013-11-26 22:09:15,613 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 263
+2013-11-26 22:22:38,061 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: gs
+2013-11-26 22:22:39,627 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 525
+2013-11-26 22:22:41,042 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: hjjf
+2013-11-26 22:22:42,135 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: fj5
+2013-11-26 22:22:49,140 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 250,h65
+2013-11-26 22:22:49,739 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: hflhsf
+2013-11-26 22:22:50,477 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: shshæèh
+2013-11-26 22:22:51,616 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: èk
+2013-11-26 22:22:53,692 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta žEUR nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.žEUR
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 22:35:44,148 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: fdf
+2013-11-26 22:35:45,114 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: gffg
+2013-11-26 22:35:46,580 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: 
+2013-11-26 22:35:50,488 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 2522
+2013-11-26 22:35:55,298 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: hcgh
+2013-11-26 22:35:55,787 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: gdd
+2013-11-26 22:35:56,601 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: dh
+2013-11-26 22:35:57,814 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: zdt
+2013-11-26 22:38:11,676 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: aaa
+2013-11-26 22:38:12,711 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 253
+2013-11-26 22:38:13,416 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: f2h
+2013-11-26 22:38:14,151 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: hfhd
+2013-11-26 22:38:19,425 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: gbxg
+2013-11-26 22:38:19,851 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: x
+2013-11-26 22:38:20,173 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: g
+2013-11-26 22:38:20,969 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: gxg
+2013-11-26 22:38:21,564 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta xh nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.xh
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-26 22:48:06,161 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 252
+2013-11-26 22:48:07,104 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: pkškop
+2013-11-26 22:48:07,893 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: ohi
+2013-11-26 22:48:09,830 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: klj7
+2013-11-26 22:48:14,938 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: kmlèèlkèæè
+2013-11-26 22:48:15,601 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: mlèl
+2013-11-26 22:48:16,382 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: nklè
+2013-11-26 22:48:17,610 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: kj
+2013-11-27 00:49:45,721 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: fdfdjsið
+2013-11-27 00:49:46,405 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: kfkal
+2013-11-27 00:49:48,196 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: 2516
+2013-11-27 00:49:49,103 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 6564
+2013-11-27 00:49:50,740 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 1. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-27 00:49:56,157 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: fds
+2013-11-27 00:49:56,387 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: sdg
+2013-11-27 00:49:56,553 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: f
+2013-11-27 00:49:56,687 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: f
+2013-11-27 00:56:05,818 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: dèadè
+2013-11-27 00:56:07,815 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: adkns4knasdè
+2013-11-27 00:56:08,645 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: mdèask4
+2013-11-27 00:56:10,160 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: admès4
+2013-11-27 00:56:14,567 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: sdlk4
+2013-11-27 00:56:15,075 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: afslè
+2013-11-27 00:56:17,241 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: mlž414
+2013-11-27 00:56:18,457 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: ld
+2013-11-27 01:00:22,353 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 25f8
+2013-11-27 01:00:23,321 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: fkoaaf
+2013-11-27 01:00:24,510 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: +56fa
+2013-11-27 01:00:26,545 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: f.žaæ4
+2013-11-27 01:00:31,444 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: fa
+2013-11-27 01:00:32,162 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: fa
+2013-11-27 01:00:32,748 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: fa
+2013-11-27 01:00:33,671 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: fa
+2013-11-27 01:07:30,289 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 2jfflyž
+2013-11-27 01:07:31,602 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: kxyfmy
+2013-11-27 01:07:32,801 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: ym.,
+2013-11-27 01:07:33,591 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: lxèdm
+2013-11-27 01:07:39,153 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: gdlg,
+2013-11-27 01:07:40,734 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: žg,dl.-ž_,4
+2013-11-27 01:07:41,710 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: gs,_
+2013-11-27 01:07:43,594 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: ,g14
+2013-11-27 01:12:59,109 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: h
+2013-11-27 01:13:00,121 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: hhd
+2013-11-27 01:13:00,950 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: hdd
+2013-11-27 01:13:02,680 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 154h
+2013-11-27 01:13:07,247 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 6zt6
+2013-11-27 01:13:08,079 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: 3hgf
+2013-11-27 01:13:08,843 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: 3g1h3
+2013-11-27 01:13:09,113 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 2
+2013-11-27 01:16:35,327 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: dflnkfdjkkl
+2013-11-27 01:16:36,025 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: èdfljèfadèl
+2013-11-27 01:16:36,709 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: jdfkjèfdsjè
+2013-11-27 01:16:37,816 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: sdfhlklfd
+2013-11-27 01:16:43,413 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 152ddpfllèsdèl
+2013-11-27 01:16:44,260 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: lfdlkèfè
+2013-11-27 01:16:45,100 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: jlfèlsfè
+2013-11-27 01:16:47,124 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 120
+2013-11-27 01:20:32,808 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 1534
+2013-11-27 01:20:33,656 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: ldhf
+2013-11-27 01:20:34,777 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: ydgèldg
+2013-11-27 01:20:35,866 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: xh,hf
+2013-11-27 01:20:43,006 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: jdg
+2013-11-27 01:20:43,507 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: fdj
+2013-11-27 01:20:44,238 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: jdg
+2013-11-27 01:20:45,043 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: jg
+2013-11-27 01:26:37,018 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: JA
+2013-11-27 01:26:38,362 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: ÈKD
+2013-11-27 01:26:39,147 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: DMè
+2013-11-27 01:26:40,416 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: mèD
+2013-11-27 01:26:45,511 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: LSKÈ
+2013-11-27 01:26:46,988 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: kJLÆ4
+2013-11-27 01:26:47,749 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: Lm
+2013-11-27 01:26:49,610 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: mèÈ4
+2013-11-27 01:47:50,011 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: djhi
+2013-11-27 01:47:51,041 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: ÈDKJ.
+2013-11-27 01:47:51,818 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: ajdèks
+2013-11-27 01:47:52,869 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: dèl
+2013-11-27 01:47:57,942 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: dèè
+2013-11-27 01:47:58,643 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: èkdè
+2013-11-27 01:48:00,831 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: èldsa44
+2013-11-27 01:48:02,192 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: ds
+2013-11-27 01:49:36,613 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: fada
+2013-11-27 01:49:37,687 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: 6f+
+2013-11-27 01:49:38,641 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: f65
+2013-11-27 01:49:39,631 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 6fa
+2013-11-27 01:49:44,784 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: faf
+2013-11-27 01:49:45,191 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: fa
+2013-11-27 01:49:45,409 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: f
+2013-11-27 01:49:46,269 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: fas
+2013-11-27 01:51:56,494 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: fsdaf
+2013-11-27 01:51:57,119 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: fafa
+2013-11-27 01:51:58,342 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: faf
+2013-11-27 01:51:58,761 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: faf
+2013-11-27 01:52:03,596 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: fafa
+2013-11-27 01:52:03,906 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: fa
+2013-11-27 01:52:04,124 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: fa
+2013-11-27 01:52:04,472 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: ffsad
+2013-11-27 01:53:21,334 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: safaf
+2013-11-27 01:53:21,804 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: ffa
+2013-11-27 01:53:22,511 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: fa
+2013-11-27 01:53:22,686 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: af
+2013-11-27 01:53:30,067 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: faaf2f
+2013-11-27 01:53:30,398 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: ffa
+2013-11-27 01:53:30,581 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: af
+2013-11-27 01:53:31,596 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: af
+2013-11-27 14:12:04,443 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: hd
+2013-11-27 14:12:05,534 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: hdh
+2013-11-27 14:12:06,210 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: hhs
+2013-11-27 14:12:07,975 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 1524
+2013-11-27 14:12:11,693 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: fdh
+2013-11-27 14:12:12,108 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: hd
+2013-11-27 14:12:12,789 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: hfhd
+2013-11-27 14:12:13,474 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: h
+2013-11-27 14:15:04,797 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 1. raèuna: ncnv
+2013-11-27 14:15:05,462 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: ng
+2013-11-27 14:15:06,323 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: gggd
+2013-11-27 14:15:07,208 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: dgs
+2013-11-27 14:15:13,184 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta KN nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.KN
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-27 14:15:17,611 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:142] Unesen neispravan iznos za stanje drugog raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:138) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+2013-11-27 14:15:19,419 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:142] Unesen neispravan iznos za stanje drugog raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:138) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+2013-11-27 14:15:24,428 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 12hfx
+2013-11-27 14:15:24,724 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: hhf
+2013-11-27 14:15:24,924 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: dhf
+2013-11-27 14:15:25,544 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: h
+2013-11-27 14:15:35,074 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 250
+2013-11-27 14:15:35,777 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: hdfx
+2013-11-27 14:15:35,937 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: 
+2013-11-27 14:15:36,167 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: h
+2013-11-27 14:15:36,363 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 1. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-27 14:15:43,527 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 250
+2013-11-27 14:15:43,878 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: fxx
+2013-11-27 14:15:44,043 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: g
+2013-11-27 14:15:44,283 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: x
+2013-11-27 14:16:32,057 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: jgf
+2013-11-27 14:16:32,433 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: fj
+2013-11-27 14:16:32,713 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: jd
+2013-11-27 14:16:33,773 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: jdg
+2013-11-27 14:16:38,091 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: ggh
+2013-11-27 14:16:38,386 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: j
+2013-11-27 14:16:38,680 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: jf
+2013-11-27 14:16:39,724 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: j
+2013-11-27 14:16:43,647 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta fEUR nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.fEUR
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-27 14:18:34,771 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 25h
+2013-11-27 14:18:35,087 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: hf
+2013-11-27 14:18:35,344 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: hf
+2013-11-27 14:18:36,114 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: hdfhdf
+2013-11-27 14:18:41,761 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: fhd
+2013-11-27 14:18:42,082 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: hf
+2013-11-27 14:18:42,304 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: fd
+2013-11-27 14:18:42,557 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: fhf
+2013-11-27 14:19:04,433 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 22lh6b
+2013-11-27 14:19:05,056 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: hj3l2hl
+2013-11-27 14:19:05,526 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: hj
+2013-11-27 14:19:05,757 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: 32
+2013-11-27 14:19:10,546 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 6h23
+2013-11-27 14:19:11,256 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: hcc3c
+2013-11-27 14:19:11,819 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: hcj
+2013-11-27 14:19:11,914 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: cj
+2013-11-27 14:19:57,016 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: hfh
+2013-11-27 14:19:57,412 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: hf
+2013-11-27 14:19:57,527 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: dd
+2013-11-27 14:19:57,687 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: fh
+2013-11-27 14:20:01,135 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: ghxf
+2013-11-27 14:20:01,581 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: h
+2013-11-27 14:20:02,346 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: h
+2013-11-27 14:20:03,322 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: hc
+2013-11-27 14:20:50,548 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 2rgj
+2013-11-27 14:20:50,844 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: dhf
+2013-11-27 14:20:51,669 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: f3hfdf
+2013-11-27 14:20:52,800 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: d
+2013-11-27 14:20:52,986 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 1. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-27 14:20:59,010 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: hhb
+2013-11-27 14:20:59,376 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: fh
+2013-11-27 14:21:00,471 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: ffg
+2013-11-27 14:21:01,914 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: fgf
+2013-11-27 14:23:06,798 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: safasF
+2013-11-27 14:23:07,289 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: Faf
+2013-11-27 14:23:08,039 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: ff
+2013-11-27 14:23:08,485 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: fa
+2013-11-27 14:23:11,899 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: FS
+2013-11-27 14:23:12,259 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: SDFSA
+2013-11-27 14:23:12,720 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: FAS
+2013-11-27 14:23:13,465 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: F
+2013-11-27 14:23:55,497 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: GFGA
+2013-11-27 14:23:55,777 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: GA
+2013-11-27 14:23:56,437 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: AGSGAS
+2013-11-27 14:23:57,673 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: GS
+2013-11-27 14:24:02,320 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: F<È
+2013-11-27 14:24:03,190 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: FYL<
+2013-11-27 14:24:03,998 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: F<ÈÆ
+2013-11-27 14:24:05,923 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: <FÈÆL
+2013-11-27 14:27:07,401 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: G
+2013-11-27 14:27:07,775 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: G
+2013-11-27 14:27:08,925 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: GG
+2013-11-27 14:27:10,311 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: G
+2013-11-27 14:27:13,792 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: FS
+2013-11-27 14:27:14,193 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: SGAAGS
+2013-11-27 14:27:14,867 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: GAS
+2013-11-27 14:27:15,415 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: GSAGA
+2013-11-27 14:31:56,541 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: gs
+2013-11-27 14:31:57,252 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: gag
+2013-11-27 14:31:57,749 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: ga
+2013-11-27 14:31:59,780 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: sag
+2013-11-27 14:32:02,585 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: gsa
+2013-11-27 14:32:02,843 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: ga
+2013-11-27 14:32:03,045 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: ag
+2013-11-27 14:32:03,522 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 
+2013-11-27 14:32:06,379 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:125] Unesena neispravna valuta: 
+hr.tvz.programiranje.java.iznimke.NepodrzanaValutaException:  Valuta agEUR nije podržana!
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:50) ~[bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosDeviznogRacuna(Glavna.java:120) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:178) [bin/:na]
+Caused by: java.lang.IllegalArgumentException: No enum constant hr.tvz.programiranje.java.banka.Valuta.agEUR
+	at java.lang.Enum.valueOf(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.banka.Valuta.valueOf(Valuta.java:1) ~[bin/:na]
+	at hr.tvz.programiranje.java.banka.DeviznaTransakcija.provjeriValutu(DeviznaTransakcija.java:48) ~[bin/:na]
+	... 2 common frames omitted
+2013-11-27 14:32:56,562 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: hdghhs
+2013-11-27 14:32:57,319 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: sshhs
+2013-11-27 14:32:57,922 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: sg
+2013-11-27 14:32:58,556 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: g
+2013-11-27 14:33:02,350 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: a
+2013-11-27 14:33:03,163 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: a
+2013-11-27 14:33:03,689 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: f
+2013-11-27 14:33:04,508 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: fa
+2013-11-27 14:34:58,057 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: afslkž
+2013-11-27 14:34:58,814 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: lanf
+2013-11-27 14:34:59,612 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: mafè
+2013-11-27 14:35:00,303 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: lkanf
+2013-11-27 14:35:05,407 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: xhx
+2013-11-27 14:35:05,976 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: x
+2013-11-27 14:35:06,364 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: hx
+2013-11-27 14:35:07,488 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: xh
+2013-11-27 14:52:09,496 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: gfg
+2013-11-27 14:52:09,736 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: fh
+2013-11-27 14:52:09,896 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: hdg
+2013-11-27 14:52:10,612 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: f
+2013-11-27 14:52:13,133 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 
+2013-11-27 14:52:13,364 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: hy
+2013-11-27 14:52:13,604 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: hyd
+2013-11-27 14:52:13,749 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 
+2013-11-27 14:52:45,306 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: nvch
+2013-11-27 14:52:45,546 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: cf
+2013-11-27 14:52:45,716 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: hv
+2013-11-27 14:52:45,896 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: hv
+2013-11-27 14:52:47,528 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: x
+2013-11-27 14:52:48,193 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: jcxj
+2013-11-27 14:52:49,089 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: xjg
+2013-11-27 14:52:49,784 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: xj
+2013-11-27 21:36:18,568 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 25fa5ž
+2013-11-27 21:36:19,047 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: fs
+2013-11-27 21:36:19,480 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: g
+2013-11-27 21:36:19,861 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: fd
+2013-11-27 21:36:20,521 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 1. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-27 21:36:22,842 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 1. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-27 21:36:26,521 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: g
+2013-11-27 21:36:26,746 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: ds
+2013-11-27 21:36:27,007 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: g
+2013-11-27 21:36:27,885 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: gsd
+2013-11-27 21:37:52,416 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: f
+2013-11-27 21:37:53,268 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: dga
+2013-11-27 21:37:54,510 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: gaa
+2013-11-27 21:37:55,887 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: ga
+2013-11-27 21:37:59,343 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: gs
+2013-11-27 21:37:59,702 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: gagsd
+2013-11-27 21:37:59,925 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: gsd
+2013-11-27 21:38:00,847 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: gsd
+2013-11-27 21:39:26,992 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: fa
+2013-11-27 21:39:27,307 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: FA
+2013-11-27 21:39:27,782 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: F
+2013-11-27 21:39:28,805 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: F
+2013-11-27 21:39:32,646 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: fa
+2013-11-27 21:39:32,978 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: fa
+2013-11-27 21:39:33,342 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: af
+2013-11-27 21:39:34,151 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: fa
+2013-11-27 21:41:26,192 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: 
+2013-11-27 21:41:42,764 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: mateooo
+2013-11-27 21:41:43,337 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: ff
+2013-11-27 21:41:43,513 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: fA
+2013-11-27 21:41:43,657 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: fa
+2013-11-27 21:41:45,937 ERROR [main] h.t.p.j.g.Glavna [Glavna.java:80] Unesen neispravan iznos za stanje 1. raèuna: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.next(Unknown Source) ~[na:1.7.0_40]
+	at java.util.Scanner.nextBigDecimal(Unknown Source) ~[na:1.7.0_40]
+	at hr.tvz.programiranje.java.glavna.Glavna.unosTekucegRacuna(Glavna.java:76) [bin/:na]
+	at hr.tvz.programiranje.java.glavna.Glavna.main(Glavna.java:175) [bin/:na]
+2013-11-27 21:41:50,238 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: 152
+2013-11-27 21:41:51,354 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: 253
+2013-11-27 21:41:52,694 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: 13
+2013-11-27 21:41:54,472 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: 2
+2013-11-27 21:45:56,187 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: faF
+2013-11-27 21:45:56,771 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: FAFA
+2013-11-27 21:45:57,485 INFO [main] h.t.p.j.g.Glavna [Glavna.java:63] Unesen OIB vlasnika 1.raèuna: FAfa
+2013-11-27 21:45:57,880 INFO [main] h.t.p.j.g.Glavna [Glavna.java:68] Unesen je broj prvog raèuna: fa
+2013-11-27 21:46:01,757 INFO [main] h.t.p.j.g.Glavna [Glavna.java:97] Uneseno ime vlasnika 2. raèuna: FA
+2013-11-27 21:46:02,048 INFO [main] h.t.p.j.g.Glavna [Glavna.java:100] Uneseno prezime vlasnika drugog raèuna: FA
+2013-11-27 21:46:02,243 INFO [main] h.t.p.j.g.Glavna [Glavna.java:104] Unesen OIB vlasnika drugog raèuna: FA
+2013-11-27 21:46:02,407 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Unesen IBAN vlasnika drugog raèuna: FA
+2013-11-27 22:59:52,936 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: Pero
+2013-11-27 22:59:56,905 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: Periæ
+2013-11-27 22:59:59,561 INFO [main] h.t.p.j.g.Glavna [Glavna.java:64] Unesen OIB vlasnika 1.raèuna: 45858746
+2013-11-27 23:00:06,762 INFO [main] h.t.p.j.g.Glavna [Glavna.java:89] Unesen je broj prvog raèuna: 
+2013-11-27 23:00:21,731 INFO [main] h.t.p.j.g.Glavna [Glavna.java:103] Uneseno ime vlasnika 2. raèuna: Ivo
+2013-11-27 23:00:24,889 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Uneseno prezime vlasnika drugog raèuna: Iviæ
+2013-11-27 23:00:31,684 INFO [main] h.t.p.j.g.Glavna [Glavna.java:112] Unesen OIB vlasnika drugog raèuna: hghd
+2013-11-27 23:00:33,350 INFO [main] h.t.p.j.g.Glavna [Glavna.java:117] Unesen IBAN vlasnika drugog raèuna: dsh
+2013-11-27 23:04:26,940 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: Pero
+2013-11-27 23:04:28,786 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: Periæ
+2013-11-27 23:04:31,462 INFO [main] h.t.p.j.g.Glavna [Glavna.java:64] Unesen OIB vlasnika 1.raèuna: 45785168953123
+2013-11-27 23:04:34,316 INFO [main] h.t.p.j.g.Glavna [Glavna.java:89] Unesen je broj prvog raèuna: 
+2013-11-27 23:04:43,988 INFO [main] h.t.p.j.g.Glavna [Glavna.java:103] Uneseno ime vlasnika 2. raèuna: Ivo
+2013-11-27 23:04:47,014 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Uneseno prezime vlasnika drugog raèuna: Iviæ
+2013-11-27 23:04:53,278 INFO [main] h.t.p.j.g.Glavna [Glavna.java:112] Unesen OIB vlasnika drugog raèuna: 1531543115
+2013-11-27 23:04:55,706 INFO [main] h.t.p.j.g.Glavna [Glavna.java:117] Unesen IBAN vlasnika drugog raèuna: 5413
+2013-11-27 23:08:22,925 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: Pero
+2013-11-27 23:08:25,327 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: Peric
+2013-11-27 23:08:27,172 INFO [main] h.t.p.j.g.Glavna [Glavna.java:64] Unesen OIB vlasnika 1.raèuna: fff
+2013-11-27 23:08:31,000 INFO [main] h.t.p.j.g.Glavna [Glavna.java:89] Unesen je broj prvog raèuna: 
+2013-11-27 23:08:44,340 INFO [main] h.t.p.j.g.Glavna [Glavna.java:103] Uneseno ime vlasnika 2. raèuna: Ivo
+2013-11-27 23:08:46,799 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Uneseno prezime vlasnika drugog raèuna: Iviæ
+2013-11-27 23:08:51,154 INFO [main] h.t.p.j.g.Glavna [Glavna.java:112] Unesen OIB vlasnika drugog raèuna: 54641
+2013-11-27 23:08:53,735 INFO [main] h.t.p.j.g.Glavna [Glavna.java:117] Unesen IBAN vlasnika drugog raèuna: 546
+2013-11-27 23:15:16,183 INFO [main] h.t.p.j.g.Glavna [Glavna.java:55] Uneseno ime vlasnika prvog raèuna: Ivo
+2013-11-27 23:15:18,863 INFO [main] h.t.p.j.g.Glavna [Glavna.java:59] Uneseno prezime vlasnika 1.raèuna: Iviæ
+2013-11-27 23:15:21,280 INFO [main] h.t.p.j.g.Glavna [Glavna.java:64] Unesen OIB vlasnika 1.raèuna: 546313
+2013-11-27 23:15:24,619 INFO [main] h.t.p.j.g.Glavna [Glavna.java:89] Unesen je broj prvog raèuna: 
+2013-11-27 23:15:33,644 INFO [main] h.t.p.j.g.Glavna [Glavna.java:103] Uneseno ime vlasnika 2. raèuna: Pero
+2013-11-27 23:15:35,270 INFO [main] h.t.p.j.g.Glavna [Glavna.java:108] Uneseno prezime vlasnika drugog raèuna: Periæ
+2013-11-27 23:15:37,852 INFO [main] h.t.p.j.g.Glavna [Glavna.java:112] Unesen OIB vlasnika drugog raèuna: 458548
+2013-11-27 23:15:39,368 INFO [main] h.t.p.j.g.Glavna [Glavna.java:117] Unesen IBAN vlasnika drugog raèuna: 26230

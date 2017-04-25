@@ -1,0 +1,15 @@
+Ime vlasnika 1 .racuna:Ivo
+Prezime vlasnika 1 .racuna:Iviæ
+OIB vlasnika 1 .racuna:546313
+Stanje 1.racuna:2500 KN
+Broj 1 .racuna:
+Vrsta 1.racuna:T
+Ime vlasnika2 .racuna:Pero
+Prezime vlasnika2 .racuna:Periæ
+OIB vlasnika2 .racuna:458548
+IBAN vlasnika2 .racuna:26230
+Valuta 2 .racuna:26230
+Vrsta 2.racuna:D
+Iznos transakcije: 150 KN
+Stanje prvog: 2350 KN
+Stanje drugog: 28.38 AUD
